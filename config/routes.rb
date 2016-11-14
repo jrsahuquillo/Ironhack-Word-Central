@@ -5,5 +5,6 @@ Rails.application.routes.draw do
 
   get '/text_inspections/new', to: 'textinspections#new'
 
+  post '/text_inspections', to: 'textinspections#create'
 
 end
