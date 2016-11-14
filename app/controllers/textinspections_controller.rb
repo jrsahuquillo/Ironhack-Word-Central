@@ -10,6 +10,7 @@ class TextinspectionsController < ApplicationController
     @word_count = @text.split(" ").length
     # ***** Updated *****
     #render plain: @word_count
+    @reading_time = @word_count/275
     render "results"
   end
 
