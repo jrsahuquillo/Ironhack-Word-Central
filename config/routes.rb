@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   get '/', to: 'site#home'
 
+  get '/text_inspections/new', to: 'textinspections#new'
+
+
 end
