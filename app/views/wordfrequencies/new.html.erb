@@ -1,0 +1,20 @@
+<h1>Word Frequency</h1>
+
+<h2>Submit text for turning into ASCII</h2>
+
+<!-- ***** Updated ***** -->
+<form action="/asciis" method="post">
+  <div>
+    <label for="text_turn_into_ascii">Text</label>
+    <br>
+    <textarea name="text_into_ascii[user_text]" id="text_turning_into_ascii"></textarea>
+  </div>
+
+  <!-- ***** New ***** -->
+  <button type="submit">Submit text</button>
+
+  <!-- ***** New ***** -->
+<input type="hidden" name="authenticity_token"
+    value="<%= form_authenticity_token %>">
+
+</form>

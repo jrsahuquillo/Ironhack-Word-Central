@@ -7,10 +7,14 @@ Rails.application.routes.draw do
 
   post '/text_inspections', to: 'textinspections#create'
 
-  post '/text_inspections', to: 'textinspections#results'
+  # post '/text_inspections', to: 'textinspections#word_frequency'
+
+  # post '/text_inspections', to: 'textinspections#results'
 
   get '/asciis/new', to: 'asciis#new'
 
   post '/asciis', to: 'asciis#create'
+
+
 
 end

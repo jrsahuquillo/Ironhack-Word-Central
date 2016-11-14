@@ -9,7 +9,7 @@
   <div>
     <label for="text_inspection_user_text">Text</label>
     <br>
-    <textarea name="text_inspection[user_text]" id="text_inspection_user_text"></textarea>
+    <textarea name="text_inspection[user_text]" id="text_inspection_user_text" style ="width: 500px; height: 300px" placeholder="Input your text"></textarea>
   </div>
 
   <!-- ***** New ***** -->
@@ -20,3 +20,5 @@
     value="<%= form_authenticity_token %>">
 
 </form>
+<br>
+<%= link_to 'back to home page','/' %>
